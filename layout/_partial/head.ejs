@@ -1,0 +1,26 @@
+<%
+  var title = page.title;
+
+  if (is_archive()){
+    title = 'Archives';
+
+    if (is_month()){
+      title += ': ' + page.year + '/' + page.month;
+    } else if (is_year()){
+      title += ': ' + page.year;
+    }
+  } else if (is_category()){
+    title = 'Category: ' + page.category;
+  } else if (is_tag()){
+    title = 'Tag: ' + page.tag;
+  }
+%>
+<head>
+  <meta charset="utf-8">
+  <title><% if(title) { %><%= title %> | <% } %> <%= config.title %></title>
+  <meta name="description" content="<%= config.subtitle %>">
+   <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <%- css('lib/css/bulma.css') %>
+  <%- css('lib/css/font-awesome.css') %>
+  <%- css('lib/css/style.css') %>
+</head>

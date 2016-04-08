@@ -1,0 +1,41 @@
+<section class="hero header-theme-flow is-primary is-medium">
+  <!-- Hero header: will stick at the top -->
+  <div class="hero-header">
+    <header class="header">
+      <div class="container">
+        <div class="header-left">
+          <a class="header-item" href="/">
+            <%= config.title %>
+          </a>
+        </div>
+        <span class="header-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div class="header-right header-menu">
+          <span class="header-item">
+            <a class="is-active" href="#">Home</a>
+          </span>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-content">
+    <div class="container">
+      <h1 class="title">
+        <% if(is_post()) { %> <%- partial('post/post-header', {post: page}) %> <% } else { %>
+        <%= config.title %>
+        <% } %>
+      </h1>
+      <h2 class="subtitle">
+        <%= config.subtitle %>
+      </h2>
+      <%- partial('_partial/social') %>
+    </div>
+  </div>
+
+
+</section>

@@ -1,0 +1,23 @@
+{
+  "name": "hexo-theme-flow",
+  "version": "0.0.1",
+  "description": "A theme for Hexo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "theme",
+    "hexo",
+    "flow"
+  ],
+  "author": "Adams Alves",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "0.0.17",
+    "font-awesome": "^4.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

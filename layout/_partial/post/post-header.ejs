@@ -12,6 +12,8 @@
 <h1 class="post-header title">
   <%- post.title %>
 </h1>
-<h2 class="post-header subtitle">
-  <%- post.subtitle %>
-</h2>
+<% if(post.subtitle) { %>
+  <h2 class="post-header subtitle">
+    <%- post.subtitle %> 
+  </h2>
+<% } %>

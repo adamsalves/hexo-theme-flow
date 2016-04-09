@@ -1,7 +1,12 @@
 * {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+a {
+  color: #999;
+}
+a:hover {
+  color: #3a566a;
+}
 /* HEADER */
 .hero.is-primary .header .container,
 .hero .header .container {
@@ -102,7 +107,7 @@
 /* PRE & CODE */
 pre {
   font-size: 18px;
-  background: none;
+  background: transparent;
 }
 .highlight {
   margin: 10px auto;
@@ -147,7 +152,7 @@ pre {
   color: #258fb8;
 }
 figure.highlight {
-  background: #eee none repeat scroll 0 0;
+  background: #f5f7fa none repeat scroll 0 0;
   font-size: 0.9em;
   line-height: 1.6;
   margin-top: 15px;

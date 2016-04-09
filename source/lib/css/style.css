@@ -13,7 +13,7 @@
 }
 .hero-content .title {
   font-size: 43px;
-  line-height: 1.1em;
+  line-height: 1.2em;
   font-weight: bold;
   text-shadow: 0 1px 0 rgba(50, 59, 64, 0.56);
 }
@@ -41,9 +41,7 @@
 .post-header.meta a:hover {
   color: #fff;
 }
-.post-header.subtitle {
-  margin: 5px 0;
-}
+
 
 /* MAIN CONTENT */
 .main-content {

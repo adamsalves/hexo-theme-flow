@@ -18,14 +18,31 @@
   text-shadow: 0 1px 0 rgba(50, 59, 64, 0.56);
 }
 .hero-content .post-meta-info {
-  font-size: 18px;
+  font-size: 14px;
   color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
 }
 .hero-content .post-meta-info a {
   color: rgba(255, 255, 255, 0.7);
 }
 .hero-content .post-meta-info a:hover {
   color: #fff;
+}
+
+/* POST-HEADER */
+.post-header.meta {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+.post-header.meta a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.post-header.meta a:hover {
+  color: #fff;
+}
+.post-header.subtitle {
+  margin: 5px 0;
 }
 
 /* MAIN CONTENT */

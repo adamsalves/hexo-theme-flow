@@ -11,6 +11,22 @@
   background-color: #3A566A;
   color: #fff;
 }
+.hero-content .title {
+  font-size: 43px;
+  line-height: 1.1em;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(50, 59, 64, 0.56);
+}
+.hero-content .post-meta-info {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.hero-content .post-meta-info a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.hero-content .post-meta-info a:hover {
+  color: #fff;
+}
 
 /* MAIN CONTENT */
 .main-content {

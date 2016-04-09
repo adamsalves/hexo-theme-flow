@@ -113,9 +113,10 @@ a:hover {
 }
 
 /* PRE & CODE */
-pre {
-  font-size: 18px;
+pre, code {
+  font-size: 17px;
   background: transparent;
+  line-height: 1.75;
 }
 .highlight {
   margin: 10px auto;
@@ -190,8 +191,6 @@ figure.highlight table {
 figure.highlight .gutter {
   border-right: 1px solid #ddd;
   color: #999;
-  /*padding-right: 15px;
-  text-align: right;*/
 }
 figure.highlight .code {
   border-left: 1px solid #fff;
@@ -223,7 +222,6 @@ pre .preprocessor, pre .preprocessor .keyword, pre .shebang, pre .symbol, pre .s
 pre .deletion {
   color: #dc322f;
 }
-/* PRE */
 
 /* SOCIAL */
 .social a {

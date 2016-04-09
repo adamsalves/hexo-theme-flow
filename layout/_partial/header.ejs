@@ -25,15 +25,16 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-content">
     <div class="container">
-      <h1 class="title">
-        <% if(is_post()) { %> <%- partial('post/post-header', {post: page}) %> <% } else { %>
-        <%= config.title %>
-        <% } %>
-      </h1>
-      <h2 class="subtitle">
-        <%= config.subtitle %>
-      </h2>
-      <%- partial('_partial/social') %>
+      <% if(is_post()) { %> <%- partial('post/post-header', {post: page}) %>
+      <% } else { %>
+        <h1 class="title">
+          <%= config.title %>
+        </h1>
+        <h2 class="subtitle">
+          <%= config.subtitle %>
+        </h2>
+        <%- partial('_partial/social') %>
+      <% } %>
     </div>
   </div>
 

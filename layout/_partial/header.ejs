@@ -14,9 +14,11 @@
           <span></span>
         </span>
         <div class="header-right header-menu">
-          <span class="header-item">
-            <a class="is-active" href="#">Home</a>
-          </span>
+            <% for (var i in theme.menu){ %>
+              <span class="header-item">
+                <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+              </span>
+            <% } %>
         </div>
       </div>
     </header>

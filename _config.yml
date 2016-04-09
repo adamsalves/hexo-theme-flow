@@ -1,3 +1,8 @@
+# Menu
+menu:
+  Home: /
+  About: /about
+
 # Social
 github: adamsalves
 twitter: adams_alves

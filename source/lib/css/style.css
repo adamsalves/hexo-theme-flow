@@ -2,10 +2,10 @@
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 a {
-  color: #999;
+  color: #ed6c63;
 }
 a:hover {
-  color: #3a566a;
+  color: #999;
 }
 /* HEADER */
 .hero.is-primary .header .container,
@@ -23,7 +23,7 @@ a:hover {
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.35)
 }
 .hero-content .subtitle {
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.75)
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75)
 }
 .hero.is-primary .subtitle {
     color: #fff;
@@ -69,12 +69,12 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
   .main-content {
-    margin: 10px;
+    margin: 30px;
   }
 }
 @media screen and (min-width: 769px) {
   .main-content {
-    margin: 10px;
+    margin: 30px;
   }
 }
 @media screen and (min-width: 980px) {
@@ -120,7 +120,6 @@ a:hover {
 /* PRE & CODE */
 pre, code {
   font-size: 17px;
-  background: transparent;
   line-height: 1.75;
 }
 .highlight {

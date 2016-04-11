@@ -7,6 +7,9 @@ a {
 a:hover {
   color: #999;
 }
+.post-content ol {
+  padding: 0 0 0 30px;
+}
 /* HEADER */
 .hero.is-primary .header .container,
 .hero .header .container {
@@ -59,7 +62,7 @@ a:hover {
   color: #323b40;
   font-size: 18px;
   font-weight: 200;
-  line-height: 1.8em;
+  line-height: 1.9em;
   background: #fff;
   border-radius: 3px;
   padding: 40px;

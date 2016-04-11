@@ -43,15 +43,15 @@ a:hover {
 }
 
 /* POST-HEADER */
-.post-header.meta {
+.post-header .meta {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
-.post-header.meta a {
+.post-header .meta a {
   color: rgba(255, 255, 255, 0.7);
 }
-.post-header.meta a:hover {
+.post-header .meta a:hover {
   color: #fff;
 }
 

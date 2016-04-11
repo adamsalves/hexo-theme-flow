@@ -90,7 +90,9 @@ a:hover {
 .footer p {
   text-align: center;
 }
-
+.post-footer {
+  margin-top: 50px;
+}
 /* BOG POSTS */
 .post-title {
   color: #444;

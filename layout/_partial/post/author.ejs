@@ -1,4 +1,13 @@
 <section class="author">
-    <h4><%- config.author %></h4>
-    <p><%- theme.bio %></p>
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-64x64">
+        <img src="<%- gravatar( theme.gravatar ) %>" alt="Image">
+      </figure>
+    </div>
+    <div class="media-content">
+      <strong><%- config.author %></strong> <small>@<%- theme.twitter %></small>
+      <p><%- theme.bio %></p>
+    </div>
+  </article>
 </section>

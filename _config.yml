@@ -3,10 +3,14 @@ menu:
   Home: /
   About: /about
 
+# Author Bio
+bio: Desenvolvimento web, Javascript e outras coisas interessantes sobre a Web!
+
 # Social
 github: adamsalves
 twitter: adams_alves
 codepen: adams_alves
+gravatar: alves.adams@gmail.com
 
 # Content
 excerpt_link: Leia mais

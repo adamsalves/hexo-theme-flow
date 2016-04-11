@@ -92,6 +92,13 @@ a:hover {
 }
 .post-footer {
   margin-top: 15px;
+  line-height: 1.2em;
+}
+.share {
+  text-align: center;
+}
+.share a i {
+  padding: 20px;
 }
 /* BOG POSTS */
 .post-title {

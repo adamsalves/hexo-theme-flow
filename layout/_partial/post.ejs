@@ -1,6 +1,6 @@
 <% permalink = config.url + config.root + post.path %>
-<main class="container" role="main">
-  <article class="post main-content">
+<main class="container main-content" role="main">
+  <article class="post">
     <section class="post-content">
       <%- post.content %>
     </section>
@@ -10,6 +10,7 @@
       <%- partial('post/share') %>
     </footer>
   </article>
+  <hr>
   <%- partial('post/navigation') %>
   <%- partial('post/comments') %>
 </main>

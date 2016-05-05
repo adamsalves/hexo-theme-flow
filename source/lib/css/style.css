@@ -88,7 +88,8 @@ a:hover {
 .footer p {
   text-align: center;
 }
-.post-footer {
+.post-footer,
+.page-footer {
   margin-top: 15px;
   line-height: 1.2em;
 }

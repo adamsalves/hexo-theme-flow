@@ -22,8 +22,8 @@
   </article>
   <% }); %>
   <nav class="pagination" role="pagination">
-    <% if (page.prev) { %><a class="newer-posts" href="<%- url_for(page.prev_link) %>">← Newer Posts</a><% } %>
+    <% if (page.prev) { %><a class="newer-posts" href="<%- url_for(page.prev_link) %>">← Posts Novos</a><% } %>
     <span class="page-number">Page <%- page.current %> of <%- page.total %></span>
-    <% if (page.next) { %><a class="older-posts" href="<%- url_for(page.next_link) %>">Older Posts →</a><% } %>
+    <% if (page.next) { %><a class="older-posts" href="<%- url_for(page.next_link) %>">Posts Antigos →</a><% } %>
   </nav>
 </main>

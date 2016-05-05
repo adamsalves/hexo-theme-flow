@@ -8,7 +8,6 @@ a {
 a:hover {
   color: #999;
 }
-
 /* HEADER */
 .hero.is-primary .header .container,
 .hero .header .container {
@@ -41,7 +40,6 @@ a:hover {
 .hero-content .post-meta-info a:hover {
   color: #fff;
 }
-
 /* POST-HEADER */
 .post-header .meta {
   font-size: 14px;
@@ -54,7 +52,6 @@ a:hover {
 .post-header .meta a:hover {
   color: #fff;
 }
-
 /* MAIN CONTENT */
 .main-content {
   color: #323b40;
@@ -83,7 +80,6 @@ a:hover {
     margin: 10px auto;
   }
 }
-
 /* FOOTER */
 .footer p {
   text-align: center;
@@ -242,7 +238,6 @@ pre .preprocessor, pre .preprocessor .keyword, pre .shebang, pre .symbol, pre .s
 pre .deletion {
   color: #dc322f;
 }
-
 /* SOCIAL */
 .social a {
   color: rgba(255, 255, 255, 0.7);
@@ -251,8 +246,11 @@ pre .deletion {
 .social a:hover {
   color: #fff;
 }
-
 /* PAGE */
 .title.page-title {
   margin-bottom: 10px;
+}
+/* PAGINATION */
+.pagination a {
+  color: #69707a;
 }

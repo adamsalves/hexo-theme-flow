@@ -251,3 +251,8 @@ pre .deletion {
 .social a:hover {
   color: #fff;
 }
+
+/* PAGE */
+.title.page-title {
+  margin-bottom: 10px;
+}

@@ -98,6 +98,9 @@ a:hover {
 .share a i {
   padding: 20px;
 }
+.footer a:not(.icon):hover {
+  border-bottom-color: #ed6c63;
+}
 /* BOG POSTS */
 .post-title {
   color: #444;
@@ -253,4 +256,7 @@ pre .deletion {
 /* PAGINATION */
 .pagination a {
   color: #69707a;
+}
+.pagination a:focus {
+    border-color: #ed6c63;
 }

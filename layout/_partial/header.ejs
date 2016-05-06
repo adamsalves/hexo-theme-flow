@@ -30,7 +30,7 @@
       <% if(is_post()) { %> <%- partial('post/post-header', {post: page}) %>
       <% } else { %>
         <h1 class="title">
-          <%= config.title %>
+          <a href="/"> <%= config.title %> </a>
         </h1>
         <h2 class="subtitle">
           <%= config.subtitle %>

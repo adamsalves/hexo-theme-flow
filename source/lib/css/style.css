@@ -260,6 +260,6 @@ pre .deletion {
 .pagination a:focus {
     border-color: #ed6c63;
 }
-.pagination.show-posts {
+.pagination.post-pagination {
   margin: 35px;
 }

@@ -112,6 +112,9 @@ a:hover {
   line-height: 1.1em;
   text-decoration: none;
 }
+.post-title a:hover {
+  color: #ed6c63;
+}
 .post-excerpt, .post-excerpt p {
   margin: 10px 0;
 }

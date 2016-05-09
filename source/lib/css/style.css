@@ -40,6 +40,9 @@ a:hover {
 .hero-content .post-meta-info a:hover {
   color: #fff;
 }
+.hamburger, .header-toggle {
+  height: 44px;    
+}
 /* POST-HEADER */
 .post-header .meta {
   font-size: 14px;

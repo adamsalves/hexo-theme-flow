@@ -41,7 +41,7 @@ a:hover {
   color: #fff;
 }
 .hamburger, .header-toggle {
-  height: 44px;    
+  height: 44px;
 }
 /* POST-HEADER */
 .post-header .meta {
@@ -134,6 +134,9 @@ a:hover {
   height: auto;
   margin: 0 auto 10px auto;
   max-width: 100%;
+}
+.post-content img[src$="gif"] {
+  margin-top: 10px;
 }
 .post-content ol {
   padding: 0 0 0 30px;

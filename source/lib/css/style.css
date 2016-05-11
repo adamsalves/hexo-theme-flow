@@ -145,10 +145,21 @@ h3 {
 .post-content ol {
   padding: 0 0 0 30px;
 }
+.post-content blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+.post-content blockquote p {
+  line-height: 1.9em;
+}
 /* PRE & CODE */
 pre, code {
   font-size: 17px;
   line-height: 1.75;
+}
+pre > code.json  {
+  margin: 20px 0;
 }
 .highlight {
   margin: 10px auto;

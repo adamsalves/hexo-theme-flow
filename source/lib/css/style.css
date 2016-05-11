@@ -8,6 +8,9 @@ a {
 a:hover {
   color: #999;
 }
+h3 {
+  font-weight: bold;
+}
 /* HEADER */
 .hero.is-primary .header .container,
 .hero .header .container {
@@ -136,7 +139,8 @@ a:hover {
   max-width: 100%;
 }
 .post-content img[src$="gif"] {
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .post-content ol {
   padding: 0 0 0 30px;

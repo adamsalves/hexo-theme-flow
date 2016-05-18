@@ -297,3 +297,9 @@ pre .deletion {
   text-align: center;
   color: #777;
 }
+.post-pagination a {
+  color: #777;
+}
+.post-pagination a:hover {
+  color: #aaa;
+}

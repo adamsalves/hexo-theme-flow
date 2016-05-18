@@ -2,7 +2,7 @@
     <% if (page.prev) { %>
       <div class="column is-one-quarter">
         <a class="newer-posts" href="<%- url_for(page.prev.path) %>">
-            ← <%- page.prev.title %>
+            <%- page.prev.title %>
         </a>
       </div>
     <% } %>
@@ -12,7 +12,7 @@
     <% if (page.next) { %>
       <div class="column is-one-quarter">
         <a class="older-posts" href="<%- url_for(page.next.path) %>">
-            <%- page.next.title %> →
+            <%- page.next.title %>
         </a>
       </div>
     <% } %>

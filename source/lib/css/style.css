@@ -301,5 +301,11 @@ pre .deletion {
   color: #777;
 }
 .post-pagination a:hover {
-  color: #aaa;
+  color: #ed6c63;
+  text-decoration: underline;
+}
+.post-pagination .fa-arrow-circle-o-right,
+.post-pagination .fa-arrow-circle-o-left {
+  position: relative;
+  top: 7px;
 }

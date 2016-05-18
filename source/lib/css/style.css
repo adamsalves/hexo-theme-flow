@@ -297,6 +297,10 @@ pre .deletion {
   text-align: center;
   color: #777;
 }
+.post-pagination .bullet span {
+  position: relative;
+  top: 35px;
+}
 .post-pagination a {
   color: #777;
 }

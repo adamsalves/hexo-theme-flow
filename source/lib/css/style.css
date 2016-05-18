@@ -293,3 +293,7 @@ pre .deletion {
 .pagination.post-pagination {
   margin: 35px;
 }
+.post-pagination .bullet {
+  text-align: center;
+  color: #777;
+}

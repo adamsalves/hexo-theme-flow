@@ -1,13 +1,19 @@
-<nav class="pagination post-pagination" role="pagination">
+<nav class="columns is-multiline is-mobile post-pagination" role="pagination">
     <% if (page.prev) { %>
-    <a class="newer-posts" href="<%- url_for(page.prev.path) %>">
-        ← <%- page.prev.title %>
-    </a>
+      <div class="column is-one-quarter">
+        <a class="newer-posts" href="<%- url_for(page.prev.path) %>">
+            ← <%- page.prev.title %>
+        </a>
+      </div>
     <% } %>
-    <span class="page-number">•</span>
+    <div class="column is-one-quarter">
+      <span class="page-number">•</span>
+    </div>
     <% if (page.next) { %>
-    <a class="older-posts" href="<%- url_for(page.next.path) %>">
-        <%- page.next.title %> →
-    </a>
+      <div class="column is-one-quarter">
+        <a class="older-posts" href="<%- url_for(page.next.path) %>">
+            <%- page.next.title %> →
+        </a>
+      </div>
     <% } %>
 </nav>

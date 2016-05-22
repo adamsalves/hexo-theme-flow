@@ -7,5 +7,8 @@
         Published with <a href="http://hexo.io/" target="_blank">Hexo</a>
       </p>
     </div>
+    <% if(is_post()) { %>
+      <%- partial('_partial/social') %>
+    <% } %>
   </div>
 </footer>

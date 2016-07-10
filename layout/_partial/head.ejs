@@ -18,12 +18,20 @@
 <head>
   <meta charset="utf-8">
   <title><% if(title) { %><%= title %> | <% } %> <%= config.title %> | <%= config.subtitle %></title>
+  <meta name="author" content="<%= config.author %>">
   <meta name="description" content="<%= config.subtitle %>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="keywords" content="javascript, html, html5, css, css3, frontend, web" />
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@adams_alves">
+  <meta name="twitter:creator" content="@adams_alves">
+  <meta name="twitter:url" content="http://adamsalves.github.io/">
+  <meta name="twitter:title" content="Blog do Adams Alves">
+  <meta name="twitter:description" content="Open web, desenvolvimento e Javascript.">
 
   <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
   <%- css('lib/css/bulma.css') %>
